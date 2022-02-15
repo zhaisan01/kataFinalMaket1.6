@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CPS</title>
-</head>
+<link href="style.css" rel="stylesheet"></head>
 <body>
 <section class="container">
-    <div class="modal ">
+    <div class="modal">
         <div class="modal__wrapper">
             <div class="modal__header">
                 <button class="modal_close-btn btn btn_hover">
@@ -19,26 +19,10 @@
                 </h1>
             </div>
             <form action="#" method="post" class="modal__form form">
-                <input type="text" placeholder="Имя" class="form__name"/>
-                <input
-                        type="tel"
-                        pattern="\+79[0-9]{9}|8[0-9]{10}"
-                        placeholder="Телефон"
-                        class="form__tel"
-                />
-                <input
-                        type="email"
-                        name=""
-                        placeholder="Электронная почта"
-                        class="form__email"
-                />
-                <textarea
-                        name=""
-                        cols="50"
-                        rows="5"
-                        class="form__area"
-                        placeholder="Сообщение"
-                ></textarea>
+                <input type="text" placeholder="Имя" class="form__name">
+                <input type="tel" pattern="\+79[0-9]{9}|8[0-9]{10}" placeholder="Телефон" class="form__tel">
+                <input type="email" name="" placeholder="Электронная почта" class="form__email">
+                <textarea name="" cols="50" rows="5" class="form__area" placeholder="Сообщение"></textarea>
                 <p class="form__info">
                     Нажимая “отправить”, вы даете согласие на
                     <a href="" class="form__link">обработку персональных данных</a> и
@@ -49,7 +33,7 @@
             </form>
         </div>
     </div>
-    <div class="modal modal-call ">
+    <div class="modal modal-call">
 
         <div class="modal__wrapper">
             <div class="modal__header">
@@ -62,12 +46,7 @@
             </div>
             <form action="#" method="post" class="modal__form form">
 
-                <input
-                        type="tel"
-                        pattern="\+79[0-9]{9}|8[0-9]{10}"
-                        placeholder="Телефон"
-                        class="form__tel"
-                />
+                <input type="tel" pattern="\+79[0-9]{9}|8[0-9]{10}" placeholder="Телефон" class="form__tel">
 
 
                 <p class="form__info">
@@ -80,7 +59,7 @@
             </form>
         </div>
     </div>
-    <aside class="sidebar ">
+    <aside class="sidebar">
         <div class="overlay"></div>
         <div class="sidebar__wrapper">
             <div class="sidebar__header">
@@ -89,7 +68,7 @@
                 <button class="sidebar__btn btn-search btn btn_hover"><img src="img/search.svg" alt=""></button>
             </div>
             <ul class="sidebar__list">
-                <li class="sidebar__item ">
+                <li class="sidebar__item">
                     <a href="#" class="sidebar__link">Ремонт техники</a>
                 </li>
                 <li class="sidebar__item sidebar__item_active">
@@ -162,10 +141,10 @@
                         <img src="img/profile.svg" alt="">
                     </button>
                     <img src="img/divider.svg" alt="" class="header__line">
-                    <button class=" btn btn_hover">
+                    <button class="btn btn_hover">
                         <img src="img/repair.svg" alt="">
                     </button>
-                    <button class=" btn btn_hover">
+                    <button class="btn btn_hover">
                         <img src="img/checkstatus.svg" alt="">
                     </button>
                 </div>
@@ -178,11 +157,11 @@
                     <h1 class="info-block__caption">Услуги и сервисы</h1>
                 </div>
                 <div class="info-block__feedback-buttons">
-                    <button class="info-block__btn btn ">
+                    <button class="info-block__btn btn">
                         <p>Оставить заявку</p>
                         <img src="img/repair.svg" alt="">
                     </button>
-                    <button class="info-block__btn btn ">
+                    <button class="info-block__btn btn">
                         <p>Статус ремонта</p>
                         <img src="img/checkstatus.svg" alt="">
                     </button>
@@ -223,13 +202,11 @@
                             </p>
                             <p class="service__deskription-p">
                                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                                партнера<span class="service__deskription-p"
-                            >, что подтверждает большое количество постоянных клиентов. Мы
+                                партнера<span class="service__deskription-p">, что подтверждает большое количество постоянных клиентов. Мы
                   гордимся тем, что к нам обращаются по рекомендациям и, в свою
                   очередь, советуют нас родным и близким.что подтверждает большое количество постоянных клиентов. Мы
                   гордимся тем, что к нам обращаются по рекомендациям и, в свою
-                  очередь, советуют нас родным и близким</span
-                            >
+                  очередь, советуют нас родным и близким</span>
                             </p>
                         </div>
                         <button class="service__button btn btn_hover">
@@ -239,16 +216,10 @@
                     </div>
                     <div class="service__image">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="./img/Picture.jpg"/>
-                            <source
-                                    media="(max-width: 1439px)"
-                                    srcset="./img/Picture_mid.jpg"
-                            />
-                            <source
-                                    media="(min-width: 1440px)"
-                                    srcset="./img/Picture_big.jpg"
-                            />
-                            <img src="./img/Picture.jpg" alt=""/>
+                            <source media="(max-width: 767px)" srcset="./img/Picture.jpg">
+                            <source media="(max-width: 1439px)" srcset="./img/Picture_mid.jpg">
+                            <source media="(min-width: 1440px)" srcset="./img/Picture_big.jpg">
+                            <img src="./img/Picture.jpg" alt="">
                         </picture>
                     </div>
                 </div>
@@ -265,111 +236,67 @@
                         <ul class="repair-info__list swiper-wrapper">
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/lenovo.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/lenovo.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/samsung.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/samsung.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/apple.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/apple.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/viewsonic.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/viewsonic.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/bosch.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/bosch.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/hp.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/hp.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/acer.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/acer.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/sony.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/sony.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/lenovo.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/lenovo.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/samsung.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/samsung.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
                             <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn" data-tab>
-                                    <img
-                                            src="./img/brandIcons/apple.svg"
-                                            alt=""
-                                            class="repair-info__list-img"
-                                    />
+                                    <img src="./img/brandIcons/apple.svg" alt="" class="repair-info__list-img">
                                     <img src="img/brandIcons/go.svg" alt="">
                                 </button>
                             </li>
@@ -388,32 +315,32 @@
                 </div>
                 <div class="repair-info__inner">
                     <div class="repair-info__container repair-info__container_tech swiper repair-info__minimized">
-                        <ul class="repair-info__list  repair-info__list_tech swiper-wrapper">
-                            <li class="repair-info__list-item  swiper-slide">
+                        <ul class="repair-info__list repair-info__list_tech swiper-wrapper">
+                            <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn repair-info__list-btn_tech">
                                     <p>Ремонт ноутбуков</p>
                                     <img src="img/brandIcons/go.svg" alt="" class="repair-info__btn_bottom">
                                 </button>
                             </li>
-                            <li class="repair-info__list-item  swiper-slide">
+                            <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn repair-info__list-btn_tech">
                                     <p>Ремонт ноутбуков</p>
                                     <img src="img/brandIcons/go.svg" alt="" class="repair-info__btn_bottom">
                                 </button>
                             </li>
-                            <li class="repair-info__list-item  swiper-slide">
+                            <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn repair-info__list-btn_tech">
                                     <p>Ремонт ноутбуков</p>
                                     <img src="img/brandIcons/go.svg" alt="" class="repair-info__btn_bottom">
                                 </button>
                             </li>
-                            <li class="repair-info__list-item  swiper-slide">
+                            <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn repair-info__list-btn_tech">
                                     <p>Ремонт ноутбуков</p>
                                     <img src="img/brandIcons/go.svg" alt="" class="repair-info__btn_bottom">
                                 </button>
                             </li>
-                            <li class="repair-info__list-item  swiper-slide">
+                            <li class="repair-info__list-item swiper-slide">
                                 <button class="repair-info__list-btn repair-info__list-btn_tech">
                                     <p>Ремонт ноутбуков</p>
                                     <img src="img/brandIcons/go.svg" alt="" class="repair-info__btn_bottom">
@@ -513,6 +440,6 @@
 </section>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-</body>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
 
 </html>
