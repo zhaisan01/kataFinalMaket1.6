@@ -1,0 +1,38 @@
+$bodyBgColor: #F8F8F8;
+$mainColor: #FFFFFF;
+$horizontalLineColor: #D9FFF5;
+$navMenuBorderColor: #B8FFEC;
+$sideMarker: #41F6D7;
+$textPrimerColor: #1B1C21;
+$textSecondaryColor: #7E7E82;
+$sliderBorderColor: #EAEAEA;
+$btnColor: #FF3E79;
+
+$sm-screen: 360px;
+$md-screen: 768px;
+$desktop-min-screen: 1366px;
+$bg-screen: 1440px;
+
+
+body {
+  font-family: TT Lakes, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: $bodyBgColor;
+}
+
+
+@import "global/global_properties";
+@import "container/info";
+@import "container/menu";
+@import "container/service-description";
+@import "repair-info/brands-info";
+@import "aside-sidebar/sidebar.scss";
+@import "header/header";
+@import "repair-info/tech-info";
+@import "repair-info/prices";
+@import "modal-windows/modal";
+@import "repair-info/description-text";
+@import "footer/footer";
+@import "../../node_modules/swiper/swiper-bundle.css";

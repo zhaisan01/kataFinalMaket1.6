@@ -1,0 +1,41 @@
+
+.menu {
+  width: 100%;
+  overflow-x: scroll;
+  padding: 0;
+  margin-bottom: 0;
+  @media (min-width: $desktop-min-screen ){
+    overflow-x: visible;
+    height: 80px;
+  }
+}
+
+.menu__list {
+  display: flex;
+  padding: 0;
+  width: max-content;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  @media (min-width: $desktop-min-screen) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.menu__item {
+  padding: 8px 16px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #7e7e82;
+  font-size: 16px;
+}
+
+.menu__item--active {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: white;
+}
+

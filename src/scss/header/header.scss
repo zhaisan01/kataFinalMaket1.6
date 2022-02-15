@@ -1,0 +1,46 @@
+.header {
+  background-color: $mainColor;
+  padding: 1.14rem 2%;
+  box-sizing: border-box;
+  border-bottom: 1px solid $horizontalLineColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (min-width: $desktop-min-screen) {
+    display: none;
+  }
+
+  &__left {
+    display: flex;
+    column-gap: 20px;
+
+    padding-right: 1.42rem;
+  }
+
+
+  &__btn-call,
+  &__btn-chat,
+  &__btn-profile {
+    @media (max-width: 520px) {
+      display: none;
+    }
+  }
+
+  &__line {
+    @media (max-width: 520px) {
+      display: none;
+    }
+
+    &_hidden {
+      display: none;
+      @media (max-width: 520px) {
+        display: block;
+      }
+    }
+  }
+
+  &__feedback-buttons {
+    display: flex;
+    column-gap: 1.1rem;
+  }
+}

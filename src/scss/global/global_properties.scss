@@ -1,0 +1,44 @@
+.container {
+  background-color: $bodyBgColor;
+  max-width: $bg-screen;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+
+}
+
+.wrapper {
+  width: 100%;
+  @media screen and (max-width: $md-screen) {
+    width: 100%;
+  }
+}
+
+.box {
+  margin: 0 auto;
+  padding: 0;
+  width: 95%;
+
+}
+
+.btn {
+  font-family: inherit;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+
+  &_hover {
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.125);
+      opacity: 0.9;
+    }
+  }
+}
+
+a {
+  color: $textPrimerColor;
+  text-decoration: none;
+}
